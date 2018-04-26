@@ -1,0 +1,107 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "/home/hoanguc3m/Dropbox/WP1/referee/Code/ccgarch/src/R_dcc.c",
+                "kind" : 6,
+                "line" : 7,
+                "name" : "dcc_est(SEXP, SEXP, SEXP, SEXP)",
+                "parent_name" : "",
+                "usr" : "c:@F@dcc_est"
+            }
+        ],
+        "file" : "/home/hoanguc3m/Dropbox/WP1/referee/Code/ccgarch/src/R_dcc.c",
+        "file_last_write" : 1395645633
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "/home/hoanguc3m/Dropbox/WP1/referee/Code/ccgarch/src/R_dcc_sim.c",
+                "kind" : 6,
+                "line" : 6,
+                "name" : "dcc_sim(SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP)",
+                "parent_name" : "",
+                "usr" : "c:@F@dcc_sim"
+            }
+        ],
+        "file" : "/home/hoanguc3m/Dropbox/WP1/referee/Code/ccgarch/src/R_dcc_sim.c",
+        "file_last_write" : 1395645633
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "/home/hoanguc3m/Dropbox/WP1/referee/Code/ccgarch/src/R_eccc_sim.c",
+                "kind" : 6,
+                "line" : 7,
+                "name" : "eccc_sim(SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP)",
+                "parent_name" : "",
+                "usr" : "c:@F@eccc_sim"
+            }
+        ],
+        "file" : "/home/hoanguc3m/Dropbox/WP1/referee/Code/ccgarch/src/R_eccc_sim.c",
+        "file_last_write" : 1395645633
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "/home/hoanguc3m/Dropbox/WP1/referee/Code/ccgarch/src/R_stcc_sim.c",
+                "kind" : 6,
+                "line" : 7,
+                "name" : "stcc_sim(SEXP, SEXP, SEXP, SEXP, SEXP, SEXP, SEXP)",
+                "parent_name" : "",
+                "usr" : "c:@F@stcc_sim"
+            }
+        ],
+        "file" : "/home/hoanguc3m/Dropbox/WP1/referee/Code/ccgarch/src/R_stcc_sim.c",
+        "file_last_write" : 1395645633
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "/home/hoanguc3m/Dropbox/WP1/referee/Code/ccgarch/src/R_uni_vola.c",
+                "kind" : 6,
+                "line" : 5,
+                "name" : "uni_vola(SEXP, SEXP)",
+                "parent_name" : "",
+                "usr" : "c:@F@uni_vola"
+            }
+        ],
+        "file" : "/home/hoanguc3m/Dropbox/WP1/referee/Code/ccgarch/src/R_uni_vola.c",
+        "file_last_write" : 1395645633
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "/home/hoanguc3m/Dropbox/WP1/referee/Code/ccgarch/src/R_uni_vola_sim.c",
+                "kind" : 6,
+                "line" : 5,
+                "name" : "uni_vola_sim(SEXP, SEXP, SEXP)",
+                "parent_name" : "",
+                "usr" : "c:@F@uni_vola_sim"
+            }
+        ],
+        "file" : "/home/hoanguc3m/Dropbox/WP1/referee/Code/ccgarch/src/R_uni_vola_sim.c",
+        "file_last_write" : 1395645633
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 6,
+                "file" : "/home/hoanguc3m/Dropbox/WP1/referee/Code/ccgarch/src/R_vector_garch.c",
+                "kind" : 6,
+                "line" : 6,
+                "name" : "vector_garch(SEXP, SEXP, SEXP, SEXP)",
+                "parent_name" : "",
+                "usr" : "c:@F@vector_garch"
+            }
+        ],
+        "file" : "/home/hoanguc3m/Dropbox/WP1/referee/Code/ccgarch/src/R_vector_garch.c",
+        "file_last_write" : 1395645633
+    }
+]

@@ -1,0 +1,30 @@
+Cnange in ver 0.2.3
+   * fixed a bug in "stcc.sims()".
+      st <- tr.func(tr.par, tr.var) shoule be st <- tr.func(st.par, tr.var)
+  
+Changes in Ver 0.2.0-2
+   * the same as those in Ver 0.2.0-1 with some corrections in Rd files.
+
+Changes in Ver 0.2.0-1 (not submitted to CRAN)
+   * Replace "is.real()" with "is.double".
+   * Some functions are made invisible, that is, not exported.
+
+Changes in Ver 0.2.0
+   * Add two functions, "hh.test" and "nt.test" for doing diagnostic tests
+
+Changes in Ver 0.1.9
+   * Corrected bugs in "dlc.R"
+
+Changes in Ver 0.1.8 (not published)
+   * Corrected bugs in "dlc.R"
+
+Changes in Ver 0.1.7
+   * Corrected a bug in calculating standard errors of the estimates in "dcc_results.R". 
+   * Considerable changes in descriptions of the help files.
+
+Changes in Version 0.1.6
+   * Modified the C-level source code (R_eccc_sim.c) for simulating a CCC-GARCH model.
+
+
+
+

@@ -1,4 +1,4 @@
-      dcc.estimation <- function(inia, iniA, iniB, ini.dcc, dvar, model, method="BFGS", gradient=1, message=1){
+      dcc.estimation <- function(inia, iniA, iniB, ini.dcc, dvar, model, method="BFGS", gradient=1, message=1, , dist = "gauss"){
          dvar <- as.matrix(dvar)
          nobs <- dim(dvar)[1]
          ndim <- dim(dvar)[2]
@@ -30,7 +30,7 @@
          std.resid <- dvar/sqrt(h)                    # std. residuals
 
          # second stage optimisation
-         second.stage <- dcc.estimation2(std.resid, ini.dcc, gradient=gradient)
+         second.stage <- dcc.estimation2(std.resid, ini.dcc, gradient=gradient, dist = dist)
          
          if(second.stage$convergence != 0){
             cat("***********************************************\n")

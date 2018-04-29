@@ -2,7 +2,7 @@
 # The 2nd step DCC estimation.
 dcc.estimation2 <- function(dvar, para, gradient=0, dist = "gauss"){ # dvar must be standardised residuals
    if (dist == "gauss"){
-       
+       cat("DCC Gauss")
        resta <- rbind(c(-1, -1), diag(2))
        restb <- c(-1, 0, 0)
        
@@ -14,11 +14,20 @@ dcc.estimation2 <- function(dvar, para, gradient=0, dist = "gauss"){ # dvar must
    }
    
    if (dist == "std"){
+       cat("DCC student")
        resta <- rbind(c(-1, -1,0), diag(3), c(0, 0, -1))
        restb <- c(-1, 0, 0, 2, -30)
            step2 <- constrOptim(theta=para, f=loglik.dcc2.std, grad=NULL, ui=resta, ci=restb, mu=1e-5, dvar=dvar)
    
    }
+    
+    if (dist == "ghst"){
+        cat("DCC GHST")
+        resta <- cbind( rbind(c(-1, -1,0), diag(3), c(0, 0, -1)) , rep(0,5) )
+        restb <- c(-1, 0, 0, 2, -30)
+        step2 <- constrOptim(theta=para, f=loglik.dcc2.ghst, grad=NULL, ui=resta, ci=restb, mu=1e-5, dvar=dvar)
+        
+    }    
    
    step2
 }

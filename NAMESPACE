@@ -30,6 +30,8 @@ export(
 "vec.garch.derivative",
 "loglik.dcc1",
 "loglik.dcc2",
+"loglik.dcc2.std",
+"loglik.dcc2.ghst",
 "loglik.dcc",
 "loglik.eccc",
 "grad.dcc2",

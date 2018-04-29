@@ -1,4 +1,4 @@
-      dcc.estimation <- function(inia, iniA, iniB, ini.dcc, dvar, model, method="BFGS", gradient=1, message=1, , dist = "gauss"){
+      dcc.estimation <- function(inia, iniA, iniB, ini.dcc, dvar, model, method="BFGS", gradient=1, message=1, dist = "gauss"){
          dvar <- as.matrix(dvar)
          nobs <- dim(dvar)[1]
          ndim <- dim(dvar)[2]
